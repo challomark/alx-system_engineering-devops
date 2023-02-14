@@ -4,5 +4,7 @@ export PATH=${PATH}:/action adds /action to the PATH. /action should be the last
 echo $PATH | tr ":" "\n" | wc -l counts the number of directories in the PATH.
 printenv lists environment variables.
 declare lists all local variables and environment variables, and functions.
+BEST="School" creates a new local variable. Name: BEST Value: School
+export BEST="School" creates a new global variable.
 
 
